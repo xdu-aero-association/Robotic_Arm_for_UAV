@@ -33,4 +33,14 @@
  
 ## 遥控协议
 
-（后续有待补充）
+|顺序|DO|DI|Bit0|Bit1|Bit2|Bit3|Bit4|Bit5|Bit6|Bit7  
+| ------------- |:-------------:| -----:|
+|0|0x01|idle|
+|1|0x42|ID|  
+|2|idle|0x5A|
+|3|idle|data|SELECT|L3|R3|START|UP|RIGHT|DOWN|LEFT|
+|4|idle|data|L2|R2|L1|R1|△|○|╳|□|
+|5|idle|data|PSS_RX（0x00=left、0xFF=right）|
+|6|idle|data|PSS_RY（0x00=up、0xFF=down）|
+|7|idle|data|PSS_LX（0x00=left、0xFF=right）|
+|8|idle|data|PSS_LY（0x00=up、0xFF=down）|
