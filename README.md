@@ -33,7 +33,7 @@
  
 ## 遥控协议
 
-|顺序|DO|DI|Bit0|Bit1|Bit2|Bit3|Bit4|Bit5|Bit6|Bit7  
+|顺序|DO|DI|Bit0|Bit1|Bit2|Bit3|Bit4|Bit5|Bit6|Bit7| 
 | ------------- |:-------------:| -----:|
 |0|0x01|idle|
 |1|0x42|ID|  
